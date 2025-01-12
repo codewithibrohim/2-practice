@@ -1,0 +1,111 @@
+
+:root{
+    /* colors */
+    --primary-color: #737373;
+    --secondary-color: #252B42;
+    --third-color: #fff;
+
+    /* background-colors */
+    --primary-bg-color: #FFA62B;
+    --secondary-bg-color: #F9F9F9;
+    --third-bg-color: #16697A;
+    --forth-bg-color: #252B42;
+
+    /* fonts  */
+    --primary-font: "Montserrat";
+
+    /* font-weight  */
+    --primary-font-weight: 500;
+    --secondary-font-weight: 700;
+    --third-font-weight:600; 
+
+    /* font-size */
+    --primary-font-size: 14px;
+    --secondary-font-size: 16px;
+    --third-font-size: 40px;
+    --forth-font-size: 24px;
+}
+
+
+@media only screen and (max-width: 750px){
+    .site-header{
+        padding-bottom: 0;
+    }
+    .site-header__nav-list{
+        display: none;
+    }
+    .site-header__menu-btn{
+        display: block;
+    }
+    .hero-title{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 346px;
+        font-weight: var(--secondary-font-weight);
+        line-height: 57px;
+        font-size: var(--third-font-size);
+        text-align: center;
+    }
+    .hero-desc{
+        margin: 0 auto;
+        max-width: 279px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .hero-list{
+        position: static;
+    }
+    .hero-links__wrapper{
+        margin: 0 auto;
+        padding-bottom: 40px;
+        width: 100%;
+        max-width: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-links__item{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .site-header-hero-bg{
+        padding-bottom: 0;
+        background-image: none;
+    }
+    .site-header__logo-img{
+        margin: 0;
+    }
+    .hero{
+        padding-top: 80px;
+        padding-bottom: 205px;
+        background-image: url("../images/hero-mobile-bg.jpg");
+    }
+    .site-hidden__nav-list{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-600px);
+        transition: all 0.3s linear;
+        right: 0;
+        left: 0;
+        gap: 30px;
+        padding: 98px 0;
+    }
+    .site-hidden__nav-link{
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        color: var(--primary-color);
+      
+    }
+    .site-hidden__nav-list-translate{
+        position: static;
+        transform: translateY(0);
+        transition: all 0.3s linear;
+    }
+}
+

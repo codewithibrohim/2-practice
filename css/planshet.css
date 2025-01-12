@@ -1,0 +1,49 @@
+
+:root{
+    /* colors */
+    --primary-color: #737373;
+    --secondary-color: #252B42;
+    --third-color: #fff;
+
+    /* background-colors */
+    --primary-bg-color: #FFA62B;
+    --secondary-bg-color: #F9F9F9;
+    --third-bg-color: #16697A;
+    --forth-bg-color: #252B42;
+
+    /* fonts  */
+    --primary-font: "Montserrat";
+
+    /* font-weight  */
+    --primary-font-weight: 500;
+    --secondary-font-weight: 700;
+    --third-font-weight:600; 
+
+    /* font-size */
+    --primary-font-size: 14;
+    --secondary-font-size: 16;
+    --third-font-size: 40;
+    --forth-font-size: 24;
+}
+
+
+@media only screen and (max-width: 1005px){
+    .site-header{
+        padding: 0 30px;
+    }
+    .site-header__wrapper{
+        padding-bottom: 40px;
+    }
+    .hero-wrapper{
+        padding: 40px 30px;
+        padding-bottom: 40px;
+    }
+    .hero-list{
+        margin: 0 auto;
+        /* right: 20px;
+        left: 20px; */
+        justify-content: center;
+        bottom: -230px;
+        gap: 30px;
+    }
+}
