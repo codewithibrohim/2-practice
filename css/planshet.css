@@ -40,10 +40,17 @@
     }
     .hero-list{
         margin: 0 auto;
-        /* right: 20px;
-        left: 20px; */
         justify-content: center;
         bottom: -230px;
         gap: 30px;
+    }
+    .site-main{
+        padding-top: 200px;
+    }
+    .why-choose__list{
+        padding: 0 20px;
+    }
+    .advice-list{
+        padding: 0 20px;
     }
 }

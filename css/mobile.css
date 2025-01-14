@@ -107,5 +107,17 @@
         transform: translateY(0);
         transition: all 0.3s linear;
     }
+    .site-main{
+        padding-top: 131px;
+    }
+    .why-choose__wrapper{
+        max-width: 252px;
+    }
+    .advice__content-wrapper{
+        max-width: 228px;
+    }
+    .advice{
+        padding-top: 98px;
+    }
 }
 
