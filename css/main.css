@@ -406,6 +406,9 @@ p{
     display: flex;
     flex-direction: column;
 }
+.advice-item__img{
+    width: 100%;
+}
 .advice-item__box{
     padding: 30px 0;
     padding-left: 30px;
@@ -432,5 +435,89 @@ p{
     font-weight: var(--primary-font-weight);
     color: var(--primary-color);
     line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.service{
+    padding: 100px 0;
+    background-color: var(--third-color);
+}
+.service-info__wrapper{
+    width: 100%;
+    max-width: 511px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-wrapper__end-info{
+    padding-bottom: 50px;
+}
+.service-title{
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: var(--primary-font);
+    font-size: var(--third-font-size);
+    font-weight: var(--secondary-font-weight);
+    color: var(--secondary-color);
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.service-desc{
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
+    color: var(--primary-color);
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.service-wrapper{
+    display: flex;
+    gap: 120px;
+}
+.service-wrapper__end{
+    padding-top: 22px;
+}
+.service-wrapper__end-title{
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: var(--primary-font);
+    font-size: var(--third-font-size);
+    font-weight: var(--secondary-font-weight);
+    color: var(--secondary-color);
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.service-wrapper__end-desc{
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
+    color: var(--primary-color);
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.service-end__list{
+    display: flex;
+    flex-direction: column;
+}
+.service-end__list-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+}
+.service-end__item-title{
+    margin: 0;
+    padding-bottom: 5px;
+    font-family: var(--primary-font);
+    font-size: var(--secondary-font-size);
+    font-weight: var(--secondary-font-weight);
+    color: var(--secondary-color);
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.service-end__item-desc{
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    font-weight: var(--third-font-weight);
+    color: var(--primary-color);
+    line-height: 24px;
     letter-spacing: 0.2px;
 }

@@ -4,21 +4,21 @@
     --primary-color: #737373;
     --secondary-color: #252B42;
     --third-color: #fff;
-
+    
     /* background-colors */
     --primary-bg-color: #FFA62B;
     --secondary-bg-color: #F9F9F9;
     --third-bg-color: #16697A;
     --forth-bg-color: #252B42;
-
+    
     /* fonts  */
     --primary-font: "Montserrat";
-
+    
     /* font-weight  */
     --primary-font-weight: 500;
     --secondary-font-weight: 700;
     --third-font-weight:600; 
-
+    
     /* font-size */
     --primary-font-size: 14;
     --secondary-font-size: 16;
@@ -52,5 +52,22 @@
     }
     .advice-list{
         padding: 0 20px;
+    }
+    .service-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-wrapper__end-info{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 550px;
+        text-align: center;
+    }
+    .service-end__list{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .service-end__list-item{
+        gap: 10px;
     }
 }
