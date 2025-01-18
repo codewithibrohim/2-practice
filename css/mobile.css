@@ -180,5 +180,12 @@
         margin: 0 auto;
         text-align: center;
     }
+    .footer-extra__info-box{
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+        max-width: 231px;
+        gap: 50px;
+    }
 }
 

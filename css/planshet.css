@@ -85,4 +85,13 @@
     .consulting{
         padding: 40px;
     }
+    .site-footer__list{
+        padding: 0 20px;
+    }
+    .site-footer__list{
+        gap: 30px;
+    }
+    .footer-extra__info{
+        padding: 25px 20px;
+    }
 }
