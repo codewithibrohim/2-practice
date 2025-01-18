@@ -70,4 +70,19 @@
     .service-end__list-item{
         gap: 10px;
     }
+    .email-form{
+        gap: 20px;
+    }
+    .email-form__input{
+        width: 200px;
+    }
+    .contact-list{
+        gap: 30px;
+    }
+    .contact-info__box{
+        padding-bottom: 60px;
+    }
+    .consulting{
+        padding: 40px;
+    }
 }

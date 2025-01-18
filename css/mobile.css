@@ -147,5 +147,38 @@
         padding: 0 20px;
         padding-bottom: 100px;
     }
+    .brends{
+        padding: 0;
+    }
+    .brends-list{
+        padding: 33px 20px;
+    }
+    .form-bg{
+        display: none;
+    }
+    .email-form{
+        position: static;
+        margin: 0;
+        flex-direction: column;
+    }
+    .email-form__title{
+        text-align: center;
+    }
+    .email-form__input{
+        width: auto;
+    }
+    .contact-info__box{
+        max-width: 300px;
+    }
+    .consulting-info__wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .consulting-info__wrapper-box{
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
